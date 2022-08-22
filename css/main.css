@@ -4,4 +4,46 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style-type: none;
 }
+
+/*import de fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+/*formatação nav*/
+header{
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    margin-top: 25px;
+    margin-left: 65px;
+    margin-right: 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    max-width: 150px;
+    height: auto;
+}
+
+.entrar{
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 15px;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    background-color: #E50914;
+}
+
+/*formatação hero*/
+
